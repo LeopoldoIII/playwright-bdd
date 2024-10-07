@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-playwright-and-cucumber-test;open-a-webpage-and-check-title",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open a webpage and check title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"https://example.com\"",
+            "match": {
+              "location": "tests/step-definitions/steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 849976791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the page title should be \"Example Domain\"",
+            "match": {
+              "location": "tests/step-definitions/steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42047790
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-playwright-and-cucumber-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sample Playwright and Cucumber test",
+    "tags": [],
+    "uri": "tests/features/sample.feature"
+  }
+]
