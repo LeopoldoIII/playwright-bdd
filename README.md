@@ -1,10 +1,11 @@
-# Playwright BDD
+# Playwright BDD with Static Page Object Model (POM)
 
-This project demonstrates how to use **Playwright** with **Cucumber (BDD)** to automate web testing. It includes sample test cases written in Gherkin and the corresponding step definitions in JavaScript. Playwright is used to launch browsers and interact with web pages, while Cucumber helps with BDD-style scenarios.
+This project demonstrates how to use **Playwright** with **Cucumber (BDD)** and a **Page Object Model (POM)** pattern to automate web testing. Methods in the Page Object classes are defined as static, eliminating the need to create instances of the pages.
 
 ## Features
 - Playwright for browser automation
 - Cucumber for writing BDD tests
+- Static Page Object Model (POM) for organizing page interactions
 - JSON reports with optional HTML generation
 
 ## Setup
@@ -16,7 +17,7 @@ This project demonstrates how to use **Playwright** with **Cucumber (BDD)** to a
 
 ### Installation
 
-Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/LeopoldoIII/playwright-bdd.git
    cd playwright-bdd
