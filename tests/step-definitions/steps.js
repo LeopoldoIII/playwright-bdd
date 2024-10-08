@@ -1,15 +1,16 @@
 const { Given, Then } = require('@cucumber/cucumber');
-const { expect } = require('@playwright/test');
 const { chromium } = require('playwright');
+const HomePage = require('../pages/homePage');
 
-Given('I navigate to {string}', async function (url) {
-  this.browser = await chromium.launch();
-  this.page = await this.browser.newPage();
-  await this.page.goto(url);
+let browser, page;
+
+Given('I navigate to the home page', async function () {
+  browser = await chromium.launch();
+  page = await browser.newPage();
+  await HomePage.navigate(page); 
 });
 
-Then('the page title should be {string}', async function (expectedTitle) {
-  const title = await this.page.title();
-  expect(title).toBe(expectedTitle);
-  await this.browser.close();
+Then('the page title should be correct', async function () {
+  await HomePage.verifyTitle(page); 
+  await browser.close();
 });

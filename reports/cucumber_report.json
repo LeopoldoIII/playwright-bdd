@@ -4,35 +4,35 @@
     "elements": [
       {
         "description": "",
-        "id": "sample-playwright-and-cucumber-test;open-a-webpage-and-check-title",
+        "id": "verify-home-page;open-the-home-page-and-check-title",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Open a webpage and check title",
+        "name": "Open the home page and check title",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I navigate to \"https://example.com\"",
+            "name": "I navigate to the home page",
             "match": {
-              "location": "tests/step-definitions/steps.js:5"
+              "location": "tests/step-definitions/steps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 849976791
+              "duration": 803394417
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 5,
-            "name": "the page title should be \"Example Domain\"",
+            "name": "the page title should be correct",
             "match": {
-              "location": "tests/step-definitions/steps.js:11"
+              "location": "tests/step-definitions/steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 42047790
+              "duration": 46689583
             }
           }
         ],
@@ -40,10 +40,10 @@
         "type": "scenario"
       }
     ],
-    "id": "sample-playwright-and-cucumber-test",
+    "id": "verify-home-page",
     "line": 1,
     "keyword": "Feature",
-    "name": "Sample Playwright and Cucumber test",
+    "name": "Verify home page",
     "tags": [],
     "uri": "tests/features/sample.feature"
   }

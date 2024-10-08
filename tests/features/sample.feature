@@ -1,5 +1,5 @@
-Feature: Sample Playwright and Cucumber test
+Feature: Verify home page
 
-Scenario: Open a webpage and check title
-  Given I navigate to "https://example.com"
-  Then the page title should be "Example Domain"
+  Scenario: Open the home page and check title
+    Given I navigate to the home page
+    Then the page title should be correct
