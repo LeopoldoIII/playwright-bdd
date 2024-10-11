@@ -4,11 +4,96 @@
     "elements": [
       {
         "description": "",
+        "id": "navigate-to-alerts,-frame-&-windows-page;user-navigates-to-the-alerts,-frame-&-windows-section",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User navigates to the Alerts, Frame & Windows section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 546811667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the DemoQA home page",
+            "match": {
+              "location": "tests/step-definitions/step_demoqa.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3270873125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user navigates to \"Alerts, Frame & Windows\"",
+            "match": {
+              "location": "tests/step-definitions/step_demoqa.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219913332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user clicks on Browser Windows",
+            "match": {
+              "location": "tests/step-definitions/step_demoqa.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 708907916
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 103103165
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "navigate-to-alerts,-frame-&-windows-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Navigate to Alerts, Frame & Windows page",
+    "tags": [],
+    "uri": "tests/features/alerts_frame_windows.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "verify-home-page;open-the-home-page-and-check-title",
         "keyword": "Scenario",
         "line": 3,
         "name": "Open the home page and check title",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 771976541
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -19,7 +104,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 803394417
+              "duration": 370551207
             }
           },
           {
@@ -32,7 +117,15 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46689583
+              "duration": 24987374
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68316917
             }
           }
         ],
